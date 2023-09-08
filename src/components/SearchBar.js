@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const SearchBar = ({ recipes, onSearchChange }) => {
+const SearchBar = ({ recipes }) => {
   const [searchInput, setSearchInput] = useState("")
 
   const handleChange = (e) => {
